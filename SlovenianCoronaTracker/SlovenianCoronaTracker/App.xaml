@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SlovenianCoronaTracker.App">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="bgColor">#F8AFA6</Color>
+            <Color x:Key="fontColor">#FADCD9</Color>
+            <Color x:Key="smallTextColor">#F9F1F0</Color>
+            <Color x:Key="navColor">#F79489</Color>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

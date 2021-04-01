@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SlovenianCoronaTracker"
+             x:Class="SlovenianCoronaTracker.MainPage">
+
+    <StackLayout BackgroundColor="{StaticResource bgColor}">
+        <Frame BackgroundColor="{StaticResource navColor}" HeightRequest="34">
+            <Label Text="Korona Novice" HorizontalTextAlignment="Center" TextColor="{StaticResource fontColor}" FontSize="30"/>
+        </Frame>
+
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label Text="Okuzenih: "
+               FontSize="17"
+               Grid.Row="0"
+               Grid.Column="0"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="CenterAndExpand" />
+
+            <Label x:Name="st_Pozitivnih" 
+               Text="500"
+               FontSize="17"
+               Grid.Row="0"
+               Grid.Column="1"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="CenterAndExpand" />
+
+            <Label Text="Testiranih: " 
+               FontSize="17"
+               Grid.Row="1"
+               Grid.Column="0"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+
+            <Label x:Name="st_Testiranih" 
+               Text="10000" 
+               FontSize="17"
+               Grid.Row="1"
+               Grid.Column="1"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+
+            <Label Text="Pozitivnih %: " 
+               FontSize="17"
+               Grid.Row="2"
+               Grid.Column="0"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+
+            <Label x:Name="proc_pozitivnih" 
+               Text="10000" 
+               FontSize="17"
+               Grid.Row="2"
+               Grid.Column="1"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+
+            <Label Text="Umrli: " 
+               FontSize="17"
+               Grid.Row="3"
+               Grid.Column="0"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+
+            <Label x:Name="st_Umrlih" 
+               Text="50" 
+               FontSize="17"
+               Grid.Row="3"
+               Grid.Column="1"
+               TextColor="{StaticResource fontColor}"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
