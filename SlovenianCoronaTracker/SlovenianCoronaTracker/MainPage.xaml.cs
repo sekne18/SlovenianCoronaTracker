@@ -17,20 +17,28 @@ namespace SlovenianCoronaTracker
         Data db = new Data();
         public MainPage()
         {
-            InitializeComponent();
-            Generator g = new Generator(db);
-            Napolni_podatke();
+            try
+            {
+                InitializeComponent();
+                Generator g = new Generator(db);
+                Napolni_podatke();
+            }
+            catch (Exception)
+            {
+                DisplayAlert("Napaka","Prišlo je do napake. Preverite internetno povezavo!","Ok");
+            }
+            
             
         }
 
         public void Napolni_podatke()
         {
-
             st_Pozitivnih.Text = db.st_pozitivnih.ToString();
             st_Testiranih.Text = db.st_testov.ToString();
             proc_pozitivnih.Text = db.proc_pozitivnih.ToString();
-            st_Umrlih.Text = "7";
-
+            datum_podatkov.Text = "Podatki veljavni za: " + db.datum_podatkov.ToString("dd MM yyyy");
+            st_Umrlih.Text = db.st_umrlih.ToString();
+            
         }
     }
 }
