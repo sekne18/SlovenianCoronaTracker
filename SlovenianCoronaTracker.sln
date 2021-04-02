@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlovenianCoronaTracker.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlovenianCoronaTracker.iOS", "SlovenianCoronaTracker\SlovenianCoronaTracker.iOS\SlovenianCoronaTracker.iOS.csproj", "{2D6576FD-49C3-43FB-A00A-B1990D7C09F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlovenianCoronaTracker", "SlovenianCoronaTracker\SlovenianCoronaTracker\SlovenianCoronaTracker.csproj", "{C14F1C57-F2A5-45A3-A948-50FFFE00F3CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlovenianCoronaTracker", "SlovenianCoronaTracker\SlovenianCoronaTracker\SlovenianCoronaTracker.csproj", "{C14F1C57-F2A5-45A3-A948-50FFFE00F3CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

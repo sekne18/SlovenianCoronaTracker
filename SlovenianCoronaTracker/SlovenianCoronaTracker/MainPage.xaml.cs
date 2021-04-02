@@ -38,7 +38,6 @@ namespace SlovenianCoronaTracker
             proc_pozitivnih.Text = db.proc_pozitivnih.ToString();
             datum_podatkov.Text = "Podatki veljavni za: " + db.datum_podatkov.ToString("dd MM yyyy");
             st_Umrlih.Text = db.st_umrlih.ToString();
-            
         }
     }
 }
